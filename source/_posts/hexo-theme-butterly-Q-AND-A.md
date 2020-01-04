@@ -14,11 +14,15 @@ comments: false
 
 以下是一些網友在安裝的過程中出現的問題。在提問題之前，先看有沒有解決方法。
 
-## 頁面只顯示 `extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug #aside_content.aside_content include includes/aside.pug`
+## 問題1
+
+頁面只顯示 `extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug #aside_content.aside_content include includes/aside.pug`
 
 > 请下载安装：`npm install hexo-renderer-pug hexo-renderer-stylus --save` or `yarn add hexo-renderer-pug hexo-renderer-stylus
 
-## 配置友情鏈接頁面時出現報錯
+## 問題2
+
+配置友情鏈接頁面時出現報錯
 
 ```
 ERROR D:\Desktop\orxing-blog\themes\Butterfly\layout\flink.pug:2
@@ -53,7 +57,9 @@ Cannot read property &#39;length&#39; of undefined
 
 > 請檢查 `link.yml`文檔内代碼的空格
 
-## 升級最新版本hexo g後報錯
+## 問題3
+
+升級最新版本hexo g後報錯
 
 ```
 INFO  Deleted database.
@@ -80,11 +86,15 @@ TypeError: Cannot read property &#39;enable&#39; of undefined
 
 > 請參照最新版的_config.xml, 比對后，把缺的配置複製到butterfly.xml去
 
-## 報錯`wordcount is not a function`
+## 問題4
+
+報錯`wordcount is not a function`
 
 > 請檢查是否安裝了wordcount插件 `npm i --save hexo-wordcount`
 
-## 舊版本升級到2.0.0后報錯
+## 問題5
+
+舊版本升級到2.0.0后報錯
 
 ```
 INFO Start processing

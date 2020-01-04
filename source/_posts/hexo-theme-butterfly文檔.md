@@ -18,22 +18,30 @@ top: True
 {% note danger %}
 Butterfly已經升級到V2.1.0
 
-1.x版本升級到V2.0.0，**需重新配置butterfly.yml(_config.yml)**。
-
 {% endnote %}
 
 {% note info %}
-很多人希望能有交流平臺可以進行討論。因此，我開通了一個Telegram群，有興趣的可以加入。
-https://t.me/hexo_butterfly
+如果升級到hexo 4.2.0 ，會出現報錯
+> Error: Cannot find module 'cheerio'
+
+請在博客根目錄安裝cheerio
+
+> npm install cheerio@0.22.0 --save
+
 {% endnote %}
 
 {% note info %}
 關於主題自定義的問題，建議仔細觀察主題代碼的寫法，自己動手操作，不懂的可以[Google](https://www.google.com/)，我不一定會回答你的問題，請見諒。
+
 如果你對主題安装有疑問或者發現bugs，請點擊[這裏](https://github.com/jerryc127/hexo-theme-butterfly/issues)反饋/詢問
+
+很多人希望能有交流平臺可以進行討論。因此，我開通了一個Telegram群，有興趣的可以加入。
+https://t.me/hexo_butterfly
+
 {% endnote %}
 
 {% note primary %}
-本教程更新于2019年12月20日
+本教程更新于2019年01月04日
 {% endnote %}
 
 # 快速開始
@@ -221,6 +229,18 @@ Flink:
 
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-flink-headline.png)
 ![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/hexo-theme-butterfly-doc-flink.png)
+
+## 音樂
+
+音樂界面使用了插件[hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)。
+使用方法請參考插件的文檔
+
+音樂頁面只是普通的page頁，按普通頁面操作生成就行。
+
+## 電影
+
+電影界面使用了插件[hexo-douban](https://github.com/mythsman/hexo-douban)。
+使用方法請參考插件的文檔。
 
 # 配置
 
@@ -1730,18 +1750,6 @@ snackbar:
 
 ![snackbar_true.gif](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/snackbar_true.gif)
 
-## 音樂
-
-音樂界面使用了插件[hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)。
-使用方法請參考插件的文檔
-
-音樂頁面只是普通的page頁，按普通頁面操作生成就行。
-
-## 電影
-
-電影界面使用了插件[hexo-douban](https://github.com/mythsman/hexo-douban)。
-使用方法請參考插件的文檔。
-
 # Q & A
 
 整理了一些網友在安裝過程中出現的問題。在提問題之前，先看有沒有解決方法。
@@ -1762,3 +1770,7 @@ snackbar:
 | JVxie  | 8.88 |
 | KT     | 5    |
 | *雪     | 10   |
+| Coolkk | 10   |
+| *雷    | 0.01  |
+| O*r   | 15    |
+

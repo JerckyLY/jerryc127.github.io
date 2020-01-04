@@ -202,6 +202,18 @@ addtoany:
 #   shortname: https-jerryc-me
 #   count: true
 
+# Disqus.js 版評論系統，應對大陸長城的折中方案，兼容原版：https://github.com/SukkaW/DisqusJS 
+# API 申請地址：https://disqus.com/api/applications/
+# 與 disqus 共用樣式
+disqusjs:
+  enable: false #開啓改爲 true
+  shortname: https-jerryc-me
+  siteName: JerryC
+  apikey: nrSx8ZhuHvjwDeKauPZ3lMnyLb7iR92BT4wl4AlKG4eJl27jxXlzOeLQ9SJP1RDW
+  api: https://disqus.skk.moe/disqus/ #一般情況下無需修改 API 地址
+  count: true # top_img顯示評論數
+
+
 # laibili:
 #   enable: false
 #   uid: MTAyMC8zNzkzMy8xNDQ2Mw==
@@ -538,11 +550,11 @@ autoChangeMode: 1
 #--------------------------------------------
 # medium_zoom https://github.com/francoischalifour/medium-zoom
 medium_zoom:
-  enable: true
+  enable: false
 
 # fancybox http://fancyapps.com/fancybox/3/
 fancybox:
-  enable: false
+  enable: true
 
 # Snackbar 彈窗
 # https://github.com/polonel/SnackBar
@@ -623,7 +635,7 @@ CDN:
   blueimp_md5: https://cdn.jsdelivr.net/npm/blueimp-md5@2.10.0/js/md5.min.js
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://cdn.jsdelivr.net/gh/xaoxuu/volantis/js/volantis.min.js # https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
